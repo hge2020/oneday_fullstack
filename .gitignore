@@ -1,9 +1,9 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-./front/node_modules
-./front/pnp
-./frontpnp.js
+front/node_modules
+front/pnp
+frontpnp.js
 
 # testing
 ./front/coverage
@@ -22,4 +22,5 @@
 ./front/yarn-debug.log*
 ./front/yarn-error.log*
 
-./back/__pycache__
+back/__pycache__/
+front/README.md
